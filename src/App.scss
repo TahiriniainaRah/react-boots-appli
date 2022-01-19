@@ -1,0 +1,49 @@
+
+.all{
+  overflow: hidden;
+}
+
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+@mixin tablet-x-large {
+  @media (max-width: 1144px) {
+    //transferen any @ scss tin ovaina
+    @content;
+  }
+}
+@mixin tablet-large {
+  @media (max-width: 992px) {
+    //transferen any @ scss tin ovaina
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    //transferen any @ scss tin ovaina
+    @content;
+  }
+}
+
+@mixin mobile-md {
+  @media (max-width: 610px) {
+    //transferen any @ scss tin ovaina
+    @content;
+  }
+}
+@mixin mobile-small {
+  @media (max-width: 520px) {
+    //transferen any @ scss tin ovaina
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 412px) {
+    //transferen any @ scss tin ovaina
+    @content;
+  }
+}

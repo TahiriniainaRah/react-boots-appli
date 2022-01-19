@@ -1,0 +1,71 @@
+@import "../../../../App.scss";
+
+
+    @include mobile-small {
+        
+    }
+    
+    
+    @include mobile {
+      
+    }
+    
+    @include tablet-x-large {
+       
+    }
+    @include tablet-large {
+    
+    }
+    
+    
+    @include tablet {
+    
+    }
+
+.navhome{
+  background:transparent;
+
+
+  ul{
+    margin-right: 7rem;
+
+    li{
+      a{
+        font-size:1.25rem ;
+        color:#022025 !important;
+        text-decoration: none;
+      }
+    }
+  }
+
+  img{
+    height: 3.625rem;
+    border-radius: 1.25rem;
+    margin-left: 15rem;
+
+    @include tablet-large {
+      margin-left: 10rem;
+    }
+    @include tablet {
+      margin-left: 1rem;
+    }
+}
+
+.toggler_Y {
+  border: none !important;
+  color: red;
+
+  .toggler_X:hover {
+    border: none !important;
+  }
+}
+
+.navbar_item {
+
+    .lol {
+      margin-left: 1.2354rem;
+    }
+}
+
+
+}

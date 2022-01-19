@@ -1,0 +1,94 @@
+@import "../../../../App.scss";
+
+@include mobile-small {
+}
+
+@include mobile {
+}
+
+@include tablet-x-large {
+}
+@include tablet-large {
+}
+
+@include tablet {
+}
+
+.banner-card {
+  width: 100vw;
+  background: linear-gradient(
+      to bottom,
+      rgba(170, 162, 162, 0) 50%,
+      rgb(179, 170, 170) 150%
+    ),
+    url(../../../../assets/img/pexels-clavier.jpg);
+  background-size: cover;
+  position: relative;
+
+  h1 {
+    font-family: "Puppies Play";
+    color: #495057;
+
+    @include tablet-large {
+      font-size: 3.5rem;
+    }
+    @include mobile-small {
+        font-size: 2.7rem;
+    }
+
+    @include tablet {
+      font-size: 2.4rem;
+    }
+    
+    @include mobile-small {
+        font-size: 2rem;
+    }
+  }
+
+  &--btn {
+    border-radius: 1.25rem;
+
+    @include mobile-small {
+        margin-top: 2rem;
+    }
+    
+    @include tablet {
+        margin-top: 1rem;
+    }
+  }
+
+  .title-banner {
+    font-size: 1.25rem;
+
+    font-weight: 300;
+    color: #6a6e7c;
+
+    @include tablet-large {
+        font-size: 1.5rem;
+      }
+      @include mobile-small {
+          font-size: 1.3rem;
+      }
+  
+      @include tablet {
+        font-size: .855rem;
+    }
+    
+    @include mobile-small {
+          font-size: .555rem;
+    }
+  }
+
+  &--space {
+    margin-top: 8rem;
+
+    .list-icon-banner {
+      font-size: 1.854rem;
+      color: #767b91;
+
+      .list-icon-banner:hover {
+        color: #495057;
+      }
+    }
+  }
+}

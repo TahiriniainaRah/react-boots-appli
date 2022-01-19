@@ -1,0 +1,42 @@
+@import "../../../../App.scss";
+
+.container {
+  &--title {
+    color: red;
+    text-transform: uppercase;
+
+    @include mobile-small {
+        font-size: 0.8rem !important;
+        text-align: center;
+    }
+    
+    
+    @include mobile {
+        font-size: 0.5rem !important;
+        text-align: center;
+    }
+    
+    @include tablet-x-large {
+        font-size: 2rem !important;
+    }
+    @include tablet-large {
+        font-size: 1.6rem !important;
+    }
+    
+    
+    @include tablet {
+        font-size: 1.245rem !important;
+    }
+    
+  }
+
+  .content {
+    .para-content {
+      font-size: 1.3515rem;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 400;
+      text-align: justifyr;
+    }
+  }
+}
+

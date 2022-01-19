@@ -1,0 +1,50 @@
+@import "../../../../App.scss";
+
+@include mobile-small {
+}
+
+@include mobile {
+}
+
+@include tablet-x-large {
+}
+@include tablet-large {
+}
+
+@include tablet {
+}
+
+.service-content {
+  &--desc {
+    position: relative;
+    z-index: 5;
+
+    &--title {
+      font-size: 8rem;
+      &--one {
+        color: #9e9e9e;
+      }
+      &--two {
+        color: #ab7648;
+      }
+      &--tree {
+        color: #44b7c7;
+      }
+    }
+
+    &--para {
+        color: #2c2c2c;
+        font-weight: 600;
+        text-align: left;
+      width: 40%;
+      position: absolute;
+      z-index: 2;
+      font-size: 0.758rem;
+      top: 0;
+      right: 0;
+
+      margin-top: 3rem;
+      margin-right: 5rem;
+    }
+  }
+}

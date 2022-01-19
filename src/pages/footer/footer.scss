@@ -1,0 +1,93 @@
+@import "../../App.scss";
+
+@include tablet-x-large {
+}
+
+@include tablet-large {
+}
+
+@include tablet {
+}
+
+@include mobile-small {
+}
+
+@include mobile {
+}
+
+.footer {
+  background: #0e0f0f !important;
+
+  a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  &--content--one {
+    margin-left: 10rem;
+
+    @include tablet-x-large {
+      margin-left: 6rem;
+    }
+
+    @include tablet {
+      margin-left: 2rem;
+    }
+
+    @include mobile {
+      margin-left: 4.5rem;
+      padding-bottom: 3rem;
+    }
+
+    
+
+    &--links {
+      h5 {
+        padding-left: 0.854rem;
+        border-left: 0.166rem solid #eeeeee;
+        padding-bottom: 0.333rem;
+        margin-bottom: 1.516rem;
+        color: #ffffff;
+
+        @include tablet {
+          padding-left: 0;
+          border-left: transparent;
+          padding-bottom: 0px;
+          margin-bottom: 10px;
+        }
+      }
+
+      ul li {
+        padding: 3px 0;
+        font-weight: 700;
+
+        
+
+        a {
+          color: #ffffff;
+
+          .list-icon-links {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer--content--two {
+    &--icon {
+      ul li {
+        padding: 3px 0;
+
+        a {
+          .list-icon-social {
+            font-size: 25px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
